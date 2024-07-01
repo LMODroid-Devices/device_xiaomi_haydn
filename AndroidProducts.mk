@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_haydn.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_haydn-user \
-    lmodroid_haydn-userdebug \
-    lmodroid_haydn-eng
