@@ -8,13 +8,13 @@
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := haydn
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11G
-PRODUCT_NAME := lineage_haydn
+PRODUCT_NAME := lmodroid_haydn
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="haydn_global-user 14 UKQ1.231207.002 V816.0.18.0.UKKMIXM release-keys" \
